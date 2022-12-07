@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Test-Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="loginWithValidCredentialsTest(failed)">
+    <classes>
+      <class name="tests.TS_01_VerifyOpenCartLoginTests">
+        <methods>
+          <include name="startPlaywrightServer"/>
+          <include name="setupBeforeTestSuite"/>
+          <include name="teardownAfterTestSuite"/>
+          <include name="closePage"/>
+          <include name="setupBeforeClass"/>
+          <include name="loginWithValidCredentialsTest"/>
+        </methods>
+      </class> <!-- tests.TS_01_VerifyOpenCartLoginTests -->
+    </classes>
+  </test> <!-- loginWithValidCredentialsTest(failed) -->
+</suite> <!-- Failed suite [Test-Suite] -->
